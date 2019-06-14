@@ -19,14 +19,15 @@ Route::get('/page1', function() {
     return 'this is page 1';
 });
 
-Route::get('/blog', 'PostController@index');
+// Route::get('/blog', 'PostController@index');
 
-Route::get('/post/create', 'PostController@create');
+// Route::get('/post/create', 'PostController@create');
 
-Route::post('/post/store', 'PostController@store');
+// Route::post('/post/store', 'PostController@store');
 
-Route::get('/post/{id}',['as' => 'post.detail', function($id)  {
-    echo"post $id";
-    echo"</br>";
-    echo"Body post in id $id";
-}]);
+// Route::get('/post/{id}',['as' => 'post.detail', function($id)  {
+//     echo"post $id";
+//     echo"</br>";
+//     echo"Body post in id $id";
+// }]);
+Route::resource('post', 'PostController');

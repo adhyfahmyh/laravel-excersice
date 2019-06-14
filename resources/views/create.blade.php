@@ -13,7 +13,7 @@
     
     <br>
     <br><br><br>
-    <form action="http://127.0.0.1:8000/post/store" method="post">
+    <form action="{{ route('post.store') }}" method="post">
         {{ csrf_field() }}
         <label for="nama">nama</label>
         <input type="text" name="nama" id="nama">
