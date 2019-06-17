@@ -7,6 +7,7 @@
     <title>Halaman Index View</title>
 </head>
 <body>
+    <!-- practice laravel -->
     <h1>Halaman Index View</h1>
     @if(count($posts)>0)
         <ul>

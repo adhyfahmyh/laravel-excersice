@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+// practice laravel
 
 Route::get('/', function () {
     return redirect('/page1');
