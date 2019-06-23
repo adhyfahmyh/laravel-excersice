@@ -21,7 +21,7 @@
         <label for="alamat">alamat</label>
         <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
         <br>
-        
+        <input type="datetime" name="tanggal" id="datetime">
         <input type="submit" value="SABMIDH">
     </form>
 </body>
