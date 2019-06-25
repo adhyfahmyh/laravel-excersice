@@ -13,7 +13,7 @@
     
     <br>
     <br><br><br>
-    <form action="{{ route('post.store') }}" method="post">
+    <!-- <form action="{{ route('post.store') }}" method="post">
         {{ csrf_field() }}
         <label for="nama">nama</label>
         <input type="text" name="nama" id="nama">
@@ -23,7 +23,7 @@
         <br>
         <input type="datetime" name="tanggal" id="datetime">
         <input type="submit" value="SABMIDH">
-    </form>
+    </form> -->
 </body>
 
 </html>
